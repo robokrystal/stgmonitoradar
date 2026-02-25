@@ -30,7 +30,7 @@ CORS(app)
 # ─── Cache em memória (evita bater na API a cada request) ──
 _cache_jogos = None
 _cache_ts    = 0
-CACHE_TTL    = 180  # segundos (3 minutos)
+CACHE_TTL    = 60   # segundos (1 minuto)
 
 def _obter_jogos():
     """Retorna jogos do cache se ainda válido, senão busca da API."""

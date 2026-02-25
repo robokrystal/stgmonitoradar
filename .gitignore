@@ -1,0 +1,21 @@
+# Ambiente virtual Python
+.venv/
+venv/
+env/
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Debug / logs locais
+debug/
+
+# Arquivos de sistema Windows
+Thumbs.db
+desktop.ini
+
+# Scripts locais (não necessários no servidor)
+INICIAR.bat
+INSTALAR.bat
